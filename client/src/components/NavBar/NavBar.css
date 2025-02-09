@@ -1,0 +1,19 @@
+.navbar {
+  background-color: rgb(150, 183, 227);
+  padding: 1.5rem 2rem;
+  height: 6rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.nav-items:hover {
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
