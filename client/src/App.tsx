@@ -1,11 +1,8 @@
 import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-  return (
-    <>
-      <h1> Portfolio</h1>
-    </>
-  );
+  return <NavBar />;
 }
 
 export default App;
