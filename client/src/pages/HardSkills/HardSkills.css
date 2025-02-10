@@ -1,0 +1,22 @@
+.hard-skills-logo {
+  height: 6rem;
+}
+
+.font-end-container,
+.back-end-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hard-skills-subtitle {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 2rem;
+}
+
+.hard-skills-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem;
+}
