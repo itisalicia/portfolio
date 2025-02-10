@@ -1,10 +1,15 @@
 import "./Presentation.css";
+import Cv from "../../components/CV/Cv";
 
 function Presentation() {
   return (
     <main id="introducing-main">
       <h1 className="introducing-title"> Alicia Magro </h1>
-      <h2 className="introducing-subtitle"> Développeuse web junior</h2>
+      <h2 className="introducing-subtitle"> Développeuse web junior </h2>
+      <article className="cv-download">
+        <Cv />
+      </article>
+
       <section className="introducing-section">
         <img
           src="./img-presentation/photo-pro.png"
