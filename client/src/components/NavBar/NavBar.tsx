@@ -5,13 +5,14 @@ function NavBar() {
     <nav className="navbar">
       <ul className="nav-list">
         <li className="nav-items">
-          <a href="#intoducing-main">Présentation</a>
+          <a href="#introducing-main">Présentation</a>
         </li>
         <li className="nav-items">
           <a href="#hard-kills-main">Hard Skills</a>{" "}
         </li>
-
-        <li className="nav-items">Formations</li>
+        <li className="nav-items">
+          <a href="#formations-main">Formations</a>
+        </li>
         <li className="nav-items">Projets</li>
       </ul>
     </nav>
