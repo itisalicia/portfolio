@@ -11,7 +11,7 @@ function NavBar() {
           <a href="#hard-kills-main">Hard Skills</a>{" "}
         </li>
 
-        <li className="nav-items">Soft Skills</li>
+        <li className="nav-items">Formations</li>
         <li className="nav-items">Projets</li>
       </ul>
     </nav>
