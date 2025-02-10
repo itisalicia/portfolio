@@ -1,12 +1,14 @@
 import "./App.css";
-import { Outlet } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
+import HardSkills from "./pages/HardSkills/HardSkills";
+import Presentation from "./pages/Presentation/Presentation";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Outlet />
+      <Presentation />
+      <HardSkills />
     </>
   );
 }

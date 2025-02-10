@@ -2,7 +2,7 @@ import "./Presentation.css";
 
 function Presentation() {
   return (
-    <main className="introducing-main">
+    <main id="introducing-main">
       <h1 className="introducing-title"> Alicia Magro </h1>
       <h2 className="introducing-subtitle"> Développeuse web junior</h2>
       <section className="introducing-section">
