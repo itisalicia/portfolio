@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 175 56% 10%;
+  --foreground: 178 23% 100%;
+  --muted: 178 35% 14%;
+  --muted-foreground: 178 10% 68%;
+  --popover: 178 56% 4%;
+  --popover-foreground: 178 23% 100%;
+  --card: 178 56% 5%;
+  --card-foreground: 0 0% 100%;
+  --border: 178 7% 13%;
+  --input: 178 7% 13%;
+  --primary: 178 40% 47%;
+  /* --primary-foreground: 178 40% 7%; */
+  --secondary: 178 18% 19%;
+  --secondary-foreground: 178 18% 79%;
+  --accent: 178 18% 19%;
+  --accent-foreground: 178 18% 79%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 178 40% 47%;
+  --chart-1: 178 40% 47%;
+  --chart-2: 178 18% 19%;
+  --chart-3: 178 18% 19%;
+  --chart-4: 178 18% 22%;
+  --chart-5: 178 43% 47%;
+}
+
+.light {
+  --background: 178 56% 4%;
+  --foreground: 178 63% 1%;
+  --muted: 178 35% 86%;
+  --muted-foreground: 178 10% 32%;
+  --popover: 178 68% 100%;
+  --popover-foreground: 178 63% 1%;
+  --card: 0 0% 99%;
+  --card-foreground: 0 0% 0%;
+  --border: 178 7% 91%;
+  --input: 178 7% 91%;
+  --primary: 178 40% 47%;
+  --primary-foreground: 0 0% 94.9%;
+  --secondary: 178 2% 88%;
+  --secondary-foreground: 178 2% 28%;
+  --accent: 178 2% 88%;
+  --accent-foreground: 178 2% 28%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 178 40% 47%;
+  --chart-1: 178 40% 47%;
+  --chart-2: 178 2% 88%;
+  --chart-3: 178 2% 88%;
+  --chart-4: 178 2% 91%;
+  --chart-5: 178 43% 47%;
+  --radius: 0.5rem;
+}
