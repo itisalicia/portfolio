@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6422953970149949430" datatype="html">
+        <source>A propos de moi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="718068350898796239" datatype="html">
+        <source>Compétences</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8541867801431653963" datatype="html">
+        <source>Expérience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2823327110111393272" datatype="html">
+        <source>Projets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1775778834767686147" datatype="html">
+        <source>Obtenir mon CV</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3871437520722173057" datatype="html">
+        <source>Alicia,</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9115438328644660041" datatype="html">
+        <source>Développeuse web full-stack JS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6103014622153164838" datatype="html">
+        <source> Développeuse web full-stack récemment formée, je suis passionnée par la création d’expériences digitales à la fois fonctionnelles et agréables à utiliser. Curieuse et déterminée, j’aime relever des défis et apprendre en continu pour apporter des solutions concrètes et innovantes. Ma rigueur, mon esprit d’équipe et mon enthousiasme sont mes alliés pour contribuer efficacement à vos projets. Et si nous en parlions autour d’un futur projet commun ? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
+          <context context-type="linenumber">8,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="118369603431462554" datatype="html">
+        <source> Contactez-moi ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
