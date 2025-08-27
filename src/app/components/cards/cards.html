@@ -1,0 +1,12 @@
+<z-card class="w-[30rem] border-2 border-primary bg-background">
+    <h2 i18n class="justify-self-center text-[1.5rem]">{{title}}</h2>
+    <section class="flex justify-around items-center m-[2rem] ">
+        @for (skill of skills; track skill.name) {
+        <div class="flex flex-col items-center text-center">
+            <p class="mb-2">{{skill.name}}</p>
+            <img [src]="skill.icon" alt="skill.name" class="w-[2.5rem]" />
+        </div>
+        }
+
+    </section>
+</z-card>
