@@ -1,7 +1,7 @@
 <header>
     <nav class="text-secondary-foreground flex justify-between items-center p-3">
-        <a (click)="scrollToSection('introducing')" class="text-base cursor-pointer" i18n>A propos de moi</a>
-        <a href class="text-base" i18n>Compétences</a>
+        <a [routerLink]="['/']" fragment="introducing" class="text-base cursor-pointer" i18n>A propos de moi</a>
+        <a [routerLink]="['/']" fragment="skills" class="text-base cursor-pointer" i18n>Compétences</a>
         <a href class="text-base" i18n>Expérience</a>
         <a href class="text-base" i18n>Projets</a>
         <a href class="text-base" i18n>Contact</a>
