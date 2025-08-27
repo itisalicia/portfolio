@@ -1,12 +1,20 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './header.html',
   styleUrl: './header.css'
 })
 export class Header {
+
+  scrollToSection(sectionId: string) {
+    console.log('Fonction appelée avec:', sectionId);;
+    const element = document.getElementById(sectionId);
+    console.log('Élément trouvé:', element);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    };
+  }
 
 }
