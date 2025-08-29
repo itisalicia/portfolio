@@ -12,7 +12,7 @@ import { Button } from "../button/button";
 })
 export class Header {
   isScrolled = false;
-  
+
   @HostListener('window:scroll', [])
   onWindowScroll(): void {
     this.isScrolled = window.scrollY > 0;
