@@ -1,0 +1,33 @@
+<main class="text-secondary-foreground mt-[10rem] text-center">
+    <h1 i18n class="col-span-full text-4xl font-bold">
+        Contactez-moi
+    </h1>
+    <h2 class="text-secondary-foreground mt-5"> Mon profil vous intéresse ? Envoyez-moi un message 😊 </h2>
+
+    <section class="flex flex-col items-center w-[30rem] m-auto mt-[3rem]">
+        <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2 placeholder:!text-xs " i18n helpText="Nom :">
+            <input type='text' placeholder="Votre nom..."
+                class=" bg-background p-3 border-2 border-primary rounded-lg resize-none" />
+        </z-form-control>
+
+        <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Email : ">
+            <input type="email" placeholder="Votre email..."
+                class="bg-background p-3 border-2 border-primary rounded-lg resize-none outline-none"
+                [ngClass]="{'border-red-500': emailError}" (input)="verifyEmail($event.target.value)" />
+        </z-form-control>
+
+        <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2 p-0" i18n helpText="Votre message :">
+            <textarea type='text' placeholder="Votre message..."
+                class=" bg-background p-3 border-2 border-primary rounded-lg resize-none w-[20rem]">
+            </textarea>
+        </z-form-control> 
+        <!-- TO DO : ne pas oublier de fair en sorte de le curseur soit en haut à gauche -->
+
+        <app-button text="Envoyer" class="mt-[1rem]" i18n></app-button>
+
+    </section>
+
+
+
+
+</main>
