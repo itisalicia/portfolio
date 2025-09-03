@@ -1,5 +1,5 @@
-<header class="sticky top-0 shadow-lg" [ngClass]="{'bg-green-950': isScrolled, 'bg-transparent': !isScrolled}">
-    <nav class="text-secondary-foreground flex justify-between items-center p-3">
+<header class="sticky top-0 shadow-lg z-10" [ngClass]="{'bg-green-950': isScrolled, 'bg-transparent': !isScrolled}">
+    <nav class="text-secondary-foreground flex justify-between items-center p-3 ">
         <a [routerLink]="['/']" fragment="introducing"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>A propos de moi</a>
         <a [routerLink]="['/']" fragment="skills"
