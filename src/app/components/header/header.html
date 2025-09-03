@@ -4,9 +4,10 @@
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>A propos de moi</a>
         <a [routerLink]="['/']" fragment="skills"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Compétences</a>
-        <a href [routerLink]="['']" fragment="experience"
+        <a [routerLink]="['/']" fragment="experience"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Expérience</a>
-        <a href class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Projets</a>
+        <a [routerLink]="['/']" fragment="projects"
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Projets</a>
         <a [routerLink]="['/']" fragment="contact"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Contact</a>
         <app-button text="Obtenir mon CV"></app-button>
