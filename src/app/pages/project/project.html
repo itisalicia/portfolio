@@ -1,6 +1,22 @@
 <main class="text-secondary-foreground mt-[10rem]">
-    <h1 i18n class="text-center text-4xl font-bold mb-[5rem]">
-        Mes projets
-    </h1>
+    <section class="grid gap-8 mt-[5rem] grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
+        <h1 i18n class="text-center text-4xl font-bold mb-[5rem]">
+            Mes projets
+        </h1>
 
+        <app-cards class="mt-[2rem]" title="Echo-challenges" [skills]="[
+        { icon: '/skills-img/ts.svg', alt: 'TypeScript' },
+        { icon: '/skills-img/react.svg', alt: 'React' },
+        { icon: '/skills-img/tailwind.svg', alt: 'Tailwind' },
+        { icon: 'skills-img/node.svg', alt: 'Node.js' },
+        { icon: '/skills-img/graphql.svg', alt: 'GraphQL' },
+        { icon: 'skills-img/typeorm.png', alt: 'TypeORM' },
+        { icon: 'skills-img/postgre.svg', alt: 'PostgreSQL' },
+        { icon: '/skills-img/docker.svg', alt: 'Docker' }
+    ]" projectImage="" description="Description de Echo-challenges..."
+            githubLink="https://github.com/WildCodeSchool/2025-03-wns-violet-ecochallenges">
+        </app-cards>
+
+
+    </section>
 </main>
