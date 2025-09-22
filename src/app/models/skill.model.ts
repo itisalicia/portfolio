@@ -1,5 +1,5 @@
 interface Skill {
-    name: string;
+    name?: string;
     icon: string;
     alt: string;
 };

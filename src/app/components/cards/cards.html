@@ -1,10 +1,35 @@
 <z-card class="w-[30rem] border-2 border-primary bg-background h-[27rem] ">
-    <h2 i18n class="justify-self-center text-[1.5rem]">{{title}}</h2>
+    <section class="relative">
+        @if (title) {
+        <h2 i18n class="justify-self-center text-[1.5rem]">{{title}}</h2>
+        }
+
+        @if (githubLink) {
+        <a href="{{githubLink}}" target="_blank" class="absolute top-[-2.5rem] right-[0rem]">
+            <img [src]="'/skills-img/github.svg'" alt="GitHub Link" class="w-[2.5rem] cursor-pointer" />
+        </a>
+        }
+
+        @if (projectTitle) {
+        <h3 i18n class="justify-self-center text-[1.2rem] font-semibold">{{projectTitle}}</h3>
+        }
+    </section>
+
+    <section>
+        @if (projectImage) {
+        <img [src]="" alt="projectImage" class="w-[15rem] h-[10rem] justify-self-center rounded-lg" />
+        }
+
+        @if (description) {
+        <p class="text-center m-[1rem]" i18n>{{description}}</p>
+        }
+    </section>
+
     <section class="grid grid-cols-4 gap-[2rem] m-[2rem]">
-        @for (skill of skills; track skill.name) {
+        @for (skill of skills; track $index) {
         <div class="flex flex-col items-center text-center">
             <p class="mb-2" i18n>{{skill.name}}</p>
-            <img [src]="skill.icon" alt="skill.name" class="w-[2.5rem]" />
+            <img [src]="skill.icon" alt="skill.name" [class]="iconSize" />
         </div>
         }
 

@@ -8,7 +8,12 @@ import { ZardCardComponent } from '@shared/components/card/card.component';
   styleUrl: './cards.css'
 })
 export class Cards {
-  @Input() title: string = "";
-  @Input() skills: Skill[] = [];
+  @Input() title?: string = "";
+  @Input() skills : Skill[] = [];
+  @Input() projectTitle? : string = "";
+  @Input() projectImage? : string = "";
+  @Input() description? : string = "";
+  @Input() githubLink? : string = "";
+  @Input() iconSize?: string ="w-[2rem]"
 
 }
