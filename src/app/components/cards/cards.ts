@@ -14,6 +14,6 @@ export class Cards {
   @Input() projectImage? : string = "";
   @Input() description? : string = "";
   @Input() githubLink? : string = "";
-  @Input() iconSize?: string ="w-[1.5rem]"
+  @Input() iconSize?: string ="w-[2rem]"
 
 }
