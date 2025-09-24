@@ -17,24 +17,25 @@ export const transporter = nodemailer.createTransport({
     }
 });
 
-export async function sendEmail(data: EmailData) {
+export async function sendEmail(data: EmailData): Promise<boolean> {
     const mailOptions = {
         from: process.env.EMAIL_USER,
         to: process.env.EMAIL_RECIPIENT,
         replyTo: data.email,
-        subject: `Nouveau message de ${data.name} (${data.email})`,
+        subject: `Nouveau message de ${data.name}, (${data.email})`,
         html: `
         <h2> Nouveau message </h2>
-        <p><strong>Nom:</strong> ${data.name}</p>
-        <p><strong>Email:</strong> ${data.email}</p>
-        <p><strong>Message:</strong></p>
-        <p>${data.message}</p>
+        <p><strong>Nom: </strong> ${data.name}</p>
+        <p><strong>Email: </strong> ${data.email}</p>
+        <p><strong>Message: </strong></p>
         <p>${data.message.replace(/\n/g, '<br>')}</p> `
     };
     try {
         await transporter.sendMail(mailOptions);
         console.log('Email sent successfully');
+        return true;
     } catch (error) {
         console.error('Error sending email:', error);
+        return false;
     }
 };
