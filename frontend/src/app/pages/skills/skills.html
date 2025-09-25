@@ -1,10 +1,10 @@
 <main class="text-secondary-foreground mt-[10rem]">
-    <section class="grid gap-8 mt-[5rem] grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
-        <h1 i18n class="col-span-full text-center text-4xl font-bold">
-            Mes compétences
-        </h1>
+  <section class="grid gap-8 mt-[5rem] grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
+    <h1 i18n class="col-span-full text-center text-4xl font-bold">
+      Mes compétences
+    </h1>
 
-        <app-cards class="mt-[2rem]" title="Frontend" iconSize="w-[2.5rem]" [skills]="[
+    <app-cards i18n class="mt-[2rem]" title="Frontend" iconSize="w-[2.5rem]" [skills]="[
       { name: 'HTML', icon: '/skills-img/html.svg', alt: 'HTML' },
       { name: 'CSS', icon: '/skills-img/css.svg', alt: 'CSS' },
       { name: 'JavaScript', icon: '/skills-img/js.svg', alt: 'JavaScript' },
@@ -15,7 +15,7 @@
       { name: 'Bootstap', icon : '/skills-img/bootstrap.svg', alt: 'Bootstrap' }
     ]"></app-cards>
 
-        <app-cards class="mt-[2rem]" title="Backend" iconSize="w-[2.5rem]" [skills]="[
+    <app-cards i18n class="mt-[2rem]" title="Backend" iconSize="w-[2.5rem]" [skills]="[
       { name: 'Node.js', icon: 'skills-img/node.svg', alt: 'Node.js'},
       { name: 'Express', icon: 'skills-img/express.svg', alt: 'Express'},
       { name: 'GraphQL', icon: 'skills-img/graphql.svg', alt: 'GraphQL'},
@@ -27,7 +27,7 @@
       { name: 'SQLite', icon: 'skills-img/sqlite.svg', alt: 'SQLite'},
     ]"></app-cards>
 
-        <app-cards class="mt-[2rem]" title="Mes autres outils" iconSize="w-[2.5rem]" [skills]="[
+    <app-cards i18n class="mt-[2rem]" title="Mes autres compétences" iconSize="w-[2.5rem]" [skills]="[
       { name: 'Docker', icon: '/skills-img/docker.svg', alt: 'Docker' },
       { name: 'CI/CD', icon: '/skills-img/ci.svg', alt: 'CI/CD' },
       { name: 'Github', icon: '/skills-img/github.svg', alt: 'Github' },
@@ -37,5 +37,5 @@
       { name: 'VSCode', icon: '/skills-img/vscode.svg', alt: 'VSCode CSS' },
       { name: 'Postman', icon : '/skills-img/postman.svg', alt: 'Postman' }
     ]"></app-cards>
-    </section>
+  </section>
 </main>
