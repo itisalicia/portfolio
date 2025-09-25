@@ -1,14 +1,14 @@
-<section class="text-secondary-foreground mt-[10rem] text-center">
+<section class="text-secondary-foreground mt-[7rem] text-center">
     <h1 i18n class="text-4xl font-bold">
         Contactez-moi
     </h1>
-    <h2 class="text-secondary-foreground mt-5"> Mon profil vous intéresse ? Envoyez-moi un message 😊 </h2>
+    <h2 class="text-secondary-foreground mt-5" i18n> Mon profil vous intéresse ? Envoyez-moi un message 😊 </h2>
 
-    <form (ngSubmit)="onSubmit()">
-        <div class="flex flex-col items-center w-[30rem] m-auto mt-[3rem]">
+    <form (ngSubmit)="onSubmit()" class="relative">
+        <div class="flex flex-col items-center m-auto mt-[3rem] w-[45rem]">
             <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Nom :">
                 <input type='text' placeholder="Votre nom..." name="name" required [(ngModel)]="name"
-                    class=" bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem]" />
+                    class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem]" />
             </z-form-control>
 
             <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Email : ">
@@ -17,21 +17,35 @@
                     [ngClass]="{'border-red-500': emailError}" (input)="verifyEmail($event.target.value)" />
             </z-form-control>
 
+            <!-- TODO Find a way to fix textarea that won't align -->
+
             <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Votre message :">
-                <textarea type='text' [(ngModel)]="message"
-                    class=" bg-background p-3 border-2 border-primary rounded-lg resize-none w-[26rem] h-[10rem]"
+                <textarea [(ngModel)]="message"
+                    class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem] h-[10rem]"
                     placeholder="Votre message..." name="message" required></textarea>
             </z-form-control>
 
             @if(emailError) {
-            <div class="text-red-500 text-sm mt-1">{{ emailError }}</div>
+            <div class="text-red-500 text-sm mt-1" i18n>{{ emailError }}</div>
             }
 
             @if (emailSuccess) {
-            <div class="text-green-500 text-sm mt-1">{{ emailSuccess }}</div>
+            <div class="text-green-500 text-sm mt-1" i18n>{{ emailSuccess }}</div>
             }
 
-            <app-button text="Envoyer" class="m-[1rem]" type="submit" i18n></app-button>
+            <app-button text="Envoyer" class="m-[3rem]" type="submit" i18n></app-button>
+        </div>
+
+        <div class="absolute right-[10rem] top-[4rem]">
+            <a href="https://github.com/itisalicia" target="_blank">
+                <img src="skills-img/github.svg" alt="github"
+                    class="w-[3rem] h-[3rem] mb-[6rem] cursor-pointer hover:scale-110 transition ease-in-out" />
+            </a>
+            <a href="https://www.linkedin.com/in/alicia-magro1/" target="_blank">
+
+                <img src="introducing-me-img/linkedin.svg" alt="linkedin"
+                    class="w-[3.2rem] h-[3.2rem] cursor-pointer hover:scale-110 transition ease-in-out" />
+            </a>
         </div>
     </form>
 </section>
