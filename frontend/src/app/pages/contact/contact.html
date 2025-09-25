@@ -6,12 +6,12 @@
 
     <form (ngSubmit)="onSubmit()" class="relative">
         <div class="flex flex-col items-center m-auto mt-[3rem] w-[45rem]">
-            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Nom :">
+            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n-helpText helpText="Nom :">
                 <input type='text' placeholder="Votre nom..." name="name" required [(ngModel)]="name"
                     class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem]" />
             </z-form-control>
 
-            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Email : ">
+            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n-helpText helpText="Email : ">
                 <input type="email" placeholder="Votre email..." name="email" required [(ngModel)]="email"
                     class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem]"
                     [ngClass]="{'border-red-500': emailError}" (input)="verifyEmail($event.target.value)" />
@@ -19,21 +19,21 @@
 
             <!-- TODO Find a way to fix textarea that won't align -->
 
-            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Votre message :">
+            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n-helpText helpText="Votre message :">
                 <textarea [(ngModel)]="message"
                     class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem] h-[10rem]"
                     placeholder="Votre message..." name="message" required></textarea>
             </z-form-control>
 
             @if(emailError) {
-            <div class="text-red-500 text-sm mt-1" i18n>{{ emailError }}</div>
+            <div class="text-red-500 text-sm mt-1" i18n-emailError>{{ emailError }}</div>
             }
 
             @if (emailSuccess) {
-            <div class="text-green-500 text-sm mt-1" i18n>{{ emailSuccess }}</div>
+            <div class="text-green-500 text-sm mt-1" i18n-emailSuccess>{{ emailSuccess }}</div>
             }
 
-            <app-button text="Envoyer" class="m-[3rem]" type="submit" i18n></app-button>
+            <app-button text="Envoyer" class="m-[3rem]" type="submit" i18n-text></app-button>
         </div>
 
         <div class="absolute right-[10rem] top-[4rem]">
