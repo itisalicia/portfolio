@@ -1,13 +1,8 @@
+import { EmailData } from '../types/email.types';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 
 dotenv.config();
-
-export interface EmailData {
-    name: string;
-    email: string;
-    message: string;
-}
 
 export const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -17,8 +12,8 @@ export const transporter = nodemailer.createTransport({
     }
 });
 
-export async function sendEmail(data: EmailData): Promise<boolean> {
-    const mailOptions = {
+export async function sendEmail(data: EmailData, file?: Express.Multer.File): Promise<boolean> {
+    const mailOptions: any = {
         from: process.env.EMAIL_USER,
         to: process.env.EMAIL_RECIPIENT,
         replyTo: data.email,
@@ -30,6 +25,13 @@ export async function sendEmail(data: EmailData): Promise<boolean> {
         <p><strong>Message: </strong></p>
         <p>${data.message.replace(/\n/g, '<br>')}</p> `
     };
+    if (file) {
+        mailOptions.attachment = [{
+            filename: file?.originalname,
+            content: file?.buffer,
+            contentType: file?.mimetype
+        }]
+    }
     try {
         await transporter.sendMail(mailOptions);
         console.log('Email sent successfully');
@@ -38,4 +40,6 @@ export async function sendEmail(data: EmailData): Promise<boolean> {
         console.error('Error sending email:', error);
         return false;
     }
+
+
 };
