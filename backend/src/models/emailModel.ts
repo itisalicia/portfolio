@@ -26,10 +26,10 @@ export async function sendEmail(data: EmailData, file?: Express.Multer.File): Pr
         <p>${data.message.replace(/\n/g, '<br>')}</p> `
     };
     if (file) {
-        mailOptions.attachment = [{
-            filename: file?.originalname,
-            content: file?.buffer,
-            contentType: file?.mimetype
+        mailOptions.attachments = [{
+            filename: file.originalname,
+            content: file.buffer,
+            contentType: file.mimetype
         }]
     }
     try {

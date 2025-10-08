@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import emailController from './nodemailer/emailController';
+import emailController from './controllers/emailController';
 
 dotenv.config();
 
