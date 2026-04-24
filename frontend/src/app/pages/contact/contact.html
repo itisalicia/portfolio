@@ -17,11 +17,9 @@
                     [ngClass]="{'border-red-500': emailError}" (input)="verifyEmail($event.target.value)" />
             </z-form-control>
 
-            <!-- TODO Find a way to fix textarea that won't align -->
-
             <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" i18n helpText="Votre message :">
                 <textarea [(ngModel)]="message"
-                    class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem] h-[10rem]"
+                    class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[29rem] h-[13rem]"
                     placeholder="Votre message..." name="message" required></textarea>
             </z-form-control>
 
