@@ -8,5 +8,5 @@ import { Cards } from 'src/app/components/cards/cards';
   styleUrl: './skills.css'
 })
 export class Skills {
-
+  otherToolsTitle = $localize`Mes autres outils`;
 }

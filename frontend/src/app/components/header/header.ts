@@ -12,13 +12,12 @@ import { Button } from "../button/button";
 })
 export class Header {
   isScrolled = false;
+  cvButtonText = $localize`Obtenir mon CV`;
 
   @HostListener('window:scroll', [])
   onWindowScroll(): void {
     this.isScrolled = window.scrollY > 0;
   }
-
-
 }
 
 

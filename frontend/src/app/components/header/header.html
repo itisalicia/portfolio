@@ -10,7 +10,7 @@
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Projets</a>
         <a [routerLink]="['/']" fragment="contact"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Contact</a>
-        <app-button text="Obtenir mon CV"></app-button>
+        <app-button [text]="cvButtonText"></app-button>
         <img src="header-img/fr-flag.jpg" alt="i18n" class="w-10 h-7 rounded-sm" />
         <img src="header-img/en-flag.png" alt="i18n" class="w-10 h-7 rounded-sm" />
     </nav>
