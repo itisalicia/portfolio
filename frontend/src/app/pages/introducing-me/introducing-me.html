@@ -1,11 +1,13 @@
 <main class="text-secondary-foreground px-10 py-20">
     <section class="flex items-center justify-center gap-16 mt-20 leading-8 max-w-6xl mx-auto">
         <div class="flex-1">
-            <h1 i18n class="text-5xl font-bold">Alicia,</h1>
-            <h2 i18n class="text-3xl mb-6">Développeuse web full-stack </h2>
+            <h1 class="text-5xl font-bold">{{ 'introducing.name' | translate }}</h1>
+            <h2 class="text-3xl mb-6">{{ 'introducing.title' | translate }}</h2>
 
-            <p class="mb-6 max-w-xl">{{paragraphText}}</p>
-            <app-button [text]="contactButtonText"></app-button>
+            <p class="mb-6 max-w-xl">{{ 'introducing.description' | translate }}</p>
+            <a [routerLink]="['/']" fragment="contact">
+                <app-button [text]="'introducing.ctaButton' | translate"></app-button>
+            </a>
         </div>
 
         <div class="flex-shrink-0">

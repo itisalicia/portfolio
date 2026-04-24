@@ -1,17 +1,17 @@
 <header class="sticky top-0 shadow-lg z-10" [ngClass]="{'bg-green-950': isScrolled, 'bg-transparent': !isScrolled}">
     <nav class="text-secondary-foreground flex justify-between items-center p-3 ">
         <a [routerLink]="['/']" fragment="introducing"
-            class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>A propos de moi</a>
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.aboutMe' | translate }}</a>
         <a [routerLink]="['/']" fragment="skills"
-            class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Compétences</a>
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.skills' | translate }}</a>
         <a [routerLink]="['/']" fragment="experience"
-            class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Expérience</a>
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.experience' | translate }}</a>
         <a [routerLink]="['/']" fragment="projects"
-            class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Projets</a>
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.projects' | translate }}</a>
         <a [routerLink]="['/']" fragment="contact"
-            class="text-base cursor-pointer hover:scale-105 transition ease-in-out" i18n>Contact</a>
-        <app-button [text]="cvButtonText"></app-button>
-        <img src="header-img/fr-flag.jpg" alt="i18n" class="w-10 h-7 rounded-sm" />
-        <img src="header-img/en-flag.png" alt="i18n" class="w-10 h-7 rounded-sm" />
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.contact' | translate }}</a>
+        <app-button [text]="'header.getResume' | translate"></app-button>
+        <img src="header-img/fr-flag.jpg" alt="Français" class="w-10 h-7 rounded-sm cursor-pointer hover:opacity-75 transition" (click)="switchLanguage('fr')" />
+        <img src="header-img/en-flag.png" alt="English" class="w-10 h-7 rounded-sm cursor-pointer hover:opacity-75 transition" (click)="switchLanguage('en')" />
     </nav>
 </header>
