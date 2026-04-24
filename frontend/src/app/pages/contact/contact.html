@@ -1,37 +1,39 @@
 <section class="text-secondary-foreground mt-[7rem] text-center">
-    <h1 i18n class="text-4xl font-bold">
-        Contactez-moi
+    <h1 class="text-4xl font-bold">
+        {{ 'contact.title' | translate }}
     </h1>
-    <h2 class="text-secondary-foreground mt-5" i18n> Mon profil vous intéresse ? Envoyez-moi un message 😊 </h2>
+    <h2 class="text-secondary-foreground mt-5">{{ 'contact.description' | translate }}</h2>
 
     <form (ngSubmit)="onSubmit()" class="relative">
         <div class="flex flex-col items-center m-auto mt-[3rem] w-[45rem]">
-            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" [helpText]="nameLabel">
-                <input type='text' [placeholder]="namePlaceholder" name="name" required [(ngModel)]="name"
+            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" [helpText]="'contact.nameLabel' | translate">
+                <input type='text' [placeholder]="'contact.namePlaceholder' | translate" name="name" required [(ngModel)]="name"
                     class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem]" />
             </z-form-control>
 
-            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" [helpText]="emailLabel">
-                <input type="email" [placeholder]="emailPlaceholder" name="email" required [(ngModel)]="email"
+            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" [helpText]="'contact.emailLabel' | translate">
+                <input type="email" [placeholder]="'contact.emailPlaceholder' | translate" name="email" required [(ngModel)]="email"
                     class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[25rem]"
-                    [ngClass]="{'border-red-500': emailError}" (input)="verifyEmail($event.target.value)" />
+                    [ngClass]="{'border-red-500': emailError}" (input)="verifyEmail($any($event.target).value)" />
             </z-form-control>
 
-            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" [helpText]="messageLabel">
+            <z-form-control class="flex flex-row-reverse mt-[1rem] gap-2" [helpText]="'contact.messageLabel' | translate">
                 <textarea [(ngModel)]="message"
                     class="bg-background p-3 border-2 border-primary rounded-lg resize-none w-[29rem] h-[13rem]"
-                    [placeholder]="messagePlaceholder" name="message" required></textarea>
+                    [placeholder]="'contact.messagePlaceholder' | translate" name="message" required></textarea>
             </z-form-control>
 
-            @if(emailError) {
-            <div class="text-red-500 text-sm mt-1">{{ emailError }}</div>
+            @if (emailError) {
+            <div class="text-red-500 text-sm mt-1">{{ emailError | translate }}</div>
             }
 
             @if (emailSuccess) {
-            <div class="text-green-500 text-sm mt-1">{{ emailSuccess }}</div>
+            <div class="text-green-500 text-sm mt-1">{{ emailSuccess | translate }}</div>
             }
 
-            <app-button [text]="submitButtonText" class="m-[3rem]" type="submit"></app-button>
+            <div class="m-[3rem]">
+              <app-button [text]="'contact.sendButton' | translate" type="submit"></app-button>
+            </div>
         </div>
 
         <div class="absolute right-[10rem] top-[4rem]">
