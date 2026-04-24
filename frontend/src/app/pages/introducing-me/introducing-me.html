@@ -4,15 +4,8 @@
             <h1 i18n class="text-5xl font-bold">Alicia,</h1>
             <h2 i18n class="text-3xl mb-6">Développeuse web full-stack </h2>
 
-            <p i18n class="mb-6 max-w-xl">
-                Développeuse web full-stack, je suis passionnée par la création d'expériences digitales
-                à la fois fonctionnelles et agréables à utiliser. Curieuse et déterminée, j'aime relever des défis et
-                apprendre en continu pour apporter des solutions concrètes et innovantes.
-                Ma rigueur, mon esprit d'équipe et mon enthousiasme sont mes alliés pour contribuer efficacement à vos
-                projets.
-                Et si nous en parlions autour d'un futur projet commun ?
-            </p>
-            <app-button text="Contactez-moi !"></app-button>
+            <p class="mb-6 max-w-xl">{{paragraphText}}</p>
+            <app-button [text]="contactButtonText"></app-button>
         </div>
 
         <div class="flex-shrink-0">

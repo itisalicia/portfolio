@@ -2,46 +2,237 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{text}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/button/button.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6422953970149949430" datatype="html">
         <source>A propos de moi</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.html</context>
-          <context context-type="linenumber">3,4</context>
+          <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="718068350898796239" datatype="html">
         <source>Compétences</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">6,7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8541867801431653963" datatype="html">
         <source>Expérience</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.html</context>
-          <context context-type="linenumber">5,6</context>
+          <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2823327110111393272" datatype="html">
         <source>Projets</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.html</context>
-          <context context-type="linenumber">6,7</context>
+          <context context-type="linenumber">10,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.html</context>
-          <context context-type="linenumber">7,8</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1775778834767686147" datatype="html">
         <source>Obtenir mon CV</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.html</context>
-          <context context-type="linenumber">8,9</context>
+          <context context-type="sourcefile">src/app/components/header/header.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2274488522846631686" datatype="html">
+        <source> Contactez-moi </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2820235744088483508" datatype="html">
+        <source> Mon profil vous intéresse ? Envoyez-moi un message 😊 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6696108412114163418" datatype="html">
+        <source>Nom :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4641677808574141134" datatype="html">
+        <source>Email : </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6150846883362212329" datatype="html">
+        <source>Votre message :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7631725691900919763" datatype="html">
+        <source>Votre nom...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="120102190744273062" datatype="html">
+        <source>Votre email...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1062899041758439802" datatype="html">
+        <source>Votre message...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7243381769177289361" datatype="html">
+        <source>Envoyer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3261074708546719990" datatype="html">
+        <source>L&apos;email doit contenir un @</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5046582641583719167" datatype="html">
+        <source>Email envoyé avec succès !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5006240546566722019" datatype="html">
+        <source>Erreur lors de l&apos;envoi de l&apos;email.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2427146597511230076" datatype="html">
+        <source> Mes formations et diplômes </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7601891475699218875" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Mars 2025 - Aujourd&apos;hui<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Préparation à la certification Conceptrice Développeuse d&apos;Application à Simplon - Wild Code School </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6056254958440120376" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Septembre 2024 - Février 2025<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Obtention de la certification &quot;Développeuse Web et Web Mobile&quot; à la Wild Code School </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7248942964157975702" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Mars 2024 - Mai 2024<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Formation Btech (HTML/CSS) avec l&apos;Association Z </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3811597133713057051" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Septembre 2016 - Décembre 2019<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Obtention du diplôme d&apos;Etat d&apos;Infirmière à l&apos;IFSI de la Croix-Rouge Française de Tourcoing </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="950529233824219421" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Janvier 2014 - Décembre 2014<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Obtention du diplôme d&apos;Etat d&apos;Aide Soignante à l&apos;IFAS du CH de Roubaix </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8473534804803003880" datatype="html">
+        <source> Mes expériences professionnelles </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7524404588662009098" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Mars 2025 - Aujourd&apos;hui<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Développeuse Web full-stack en alternance chez Ouidou Nord </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="993734838333287021" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Juin 2023 - Septembre 2023<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Infirmière à l&apos;Etablissement Public de Santé Mentale d&apos;Armentières </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8194949754151431337" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Février 2020 - Mai 2023<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Infirmière à l&apos;hôpital Saint Jean de Dieu à Lyon </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4363297676063904119" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>2015<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aide-Soignante à l&apos;Etablissement Public de Santé Mentale de Saint-André-lez-Lille </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">90,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6781165081322634732" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>2015<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Aide-Soignante à l&apos;hôpital Saint Vincent de Paul à Lille </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience/experience.html</context>
+          <context context-type="linenumber">99,100</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3871437520722173057" datatype="html">
@@ -51,25 +242,82 @@
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9115438328644660041" datatype="html">
-        <source>Développeuse web full-stack JS</source>
+      <trans-unit id="9050484177065227812" datatype="html">
+        <source>Développeuse web full-stack </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
           <context context-type="linenumber">5,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6103014622153164838" datatype="html">
-        <source> Développeuse web full-stack récemment formée, je suis passionnée par la création d’expériences digitales à la fois fonctionnelles et agréables à utiliser. Curieuse et déterminée, j’aime relever des défis et apprendre en continu pour apporter des solutions concrètes et innovantes. Ma rigueur, mon esprit d’équipe et mon enthousiasme sont mes alliés pour contribuer efficacement à vos projets. Et si nous en parlions autour d’un futur projet commun ? </source>
+      <trans-unit id="4137772762754702851" datatype="html">
+        <source>Après avoir été infirmière durant quelques années, j&apos;ai décidé de me reconvertir dans le développement web. Je suis passionnée par la création d&apos;expériences digitales à la fois fonctionnelles et agréables à utiliser. Curieuse et déterminée, j&apos;aime relever des défis et apprendre en continu pour apporter des solutions concrètes et innovantes. Ma rigueur, mon esprit d&apos;équipe et mon enthousiasme sont mes alliés pour contribuer efficacement à vos projets. Et si nous en parlions autour d&apos;un futur projet commun ?</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
-          <context context-type="linenumber">8,12</context>
+          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.ts</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="118369603431462554" datatype="html">
-        <source> Contactez-moi ! </source>
+      <trans-unit id="685601880263590115" datatype="html">
+        <source>Contactez-moi !</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.html</context>
+          <context context-type="sourcefile">src/app/pages/introducing-me/introducing-me.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3514369425765733248" datatype="html">
+        <source> Mes projets </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/project/project.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1011095003453905179" datatype="html">
+        <source>Et beaucoup d&apos;autres disponible sur <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://github.com/itisalicia&quot;
+            target=&quot;_blank&quot; class=&quot;text-primary&quot;&gt;"/>mon GitHub<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/project/project.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1946038639296303083" datatype="html">
+        <source>Eco-challenges est une application web qui permet aux utilisateurs de créer des défis écologiques mais aussi d&apos;inviter leurs amis à les relever.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/project/project.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4028953750455912744" datatype="html">
+        <source>Nintendream est l&apos;application web d&apos;un parc d&apos;attractions imaginaire sur le thème de la célèbre licence de jeux vidéo. On y retrouve un back-office permettant aux administrateurs de gérer les attractions, restaurants et hôtels du parc.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/project/project.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6040058854793388248" datatype="html">
+        <source>Portfolio vitrine de mes compétences acquises.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/project/project.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3990354282789871729" datatype="html">
+        <source>Application web permettant de trouver des hôtels et restaurants dans plusieurs villes du monde. Création de notre API REST.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/project/project.ts</context>
           <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4046671207112036734" datatype="html">
+        <source> Mes compétences </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/skills/skills.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4627555671477272362" datatype="html">
+        <source>Mes autres outils</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/skills/skills.ts</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
     </body>

@@ -15,11 +15,25 @@ export class Contact {
   emailError: string = '';
   emailSuccess: string = '';
 
+  // Labels et placeholders
+  nameLabel = $localize`Nom :`;
+  emailLabel = $localize`Email : `;
+  messageLabel = $localize`Votre message :`;
+  namePlaceholder = $localize`Votre nom...`;
+  emailPlaceholder = $localize`Votre email...`;
+  messagePlaceholder = $localize`Votre message...`;
+  submitButtonText = $localize`Envoyer`;
+
+  // Messages
+  emailValidationError = $localize`L'email doit contenir un @`;
+  emailSuccessMessage = $localize`Email envoyé avec succès !`;
+  emailErrorMessage = $localize`Erreur lors de l'envoi de l'email.`;
+
   verifyEmail(email: string) {
     if (typeof email === 'string' && email.includes('@')) {
       this.emailError = '';
     } else {
-      this.emailError = 'L\'email doit contenir un @';
+      this.emailError = this.emailValidationError;
     }
   }
 
@@ -35,14 +49,14 @@ export class Contact {
     if (this.name && this.email && this.message && this.emailError === '') {
       this.emailService.sendEmail(this.name, this.email, this.message).subscribe({
         next: () => {
-          this.emailSuccess = "Email envoyé avec succès !";
+          this.emailSuccess = this.emailSuccessMessage;
           this.name = '';
           this.email = '';
           this.message = '';
           console.log("Email sent successfully");
         },
         error: (error) => {
-          this.emailError = "Erreur lors de l'envoi de l'email.";
+          this.emailError = this.emailErrorMessage;
           console.error("Error sending email", error)
         }
       });
