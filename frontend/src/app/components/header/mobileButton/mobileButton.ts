@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { RouterLink } from "@angular/router";
 import { TranslateModule } from "@ngx-translate/core";
-import { Button } from "../button/button";
+import { Button } from "../../button/button";
 
 @Component({
     selector: 'app-mobile-button',

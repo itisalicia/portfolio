@@ -4,7 +4,7 @@ import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { Button } from '../button/button';
 import { LanguageService } from '../../services/language.service';
-import { MobileButton } from './mobileButton';
+import { MobileButton } from './mobileButton/mobileButton';
 
 @Component({
   selector: 'app-header',
