@@ -4,18 +4,19 @@ import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { Button } from '../button/button';
 import { LanguageService } from '../../services/language.service';
+import { MobileButton } from './mobileButton/mobileButton';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterLink, CommonModule, TranslateModule, Button],
+  imports: [RouterLink, CommonModule, TranslateModule, Button, MobileButton],
   templateUrl: './header.html',
   styleUrls: ['./header.css']
 })
 export class Header {
   isScrolled = false;
 
-  constructor(private languageService: LanguageService) {}
+  constructor(private languageService: LanguageService) { }
 
   @HostListener('window:scroll', [])
   onWindowScroll(): void {
