@@ -1,5 +1,6 @@
 <header class="sticky top-0 shadow-lg z-10" [ngClass]="{'bg-green-950': isScrolled, 'bg-transparent': !isScrolled}">
-    <nav class="text-secondary-foreground flex justify-between items-center p-3 ">
+    <app-mobile-button></app-mobile-button>
+    <nav class="text-secondary-foreground hidden md:flex justify-between items-center p-3 ">
         <a [routerLink]="['/']" fragment="introducing"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.aboutMe' | translate
             }}</a>
