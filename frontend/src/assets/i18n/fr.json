@@ -5,7 +5,9 @@
     "experience": "Expérience",
     "projects": "Projets",
     "contact": "Contact",
-    "getResume": "Obtenir mon CV"
+    "getResume": "Obtenir mon CV",
+    "french": "Français",
+    "english": "Anglais"
   },
   "contact": {
     "title": " Contactez-moi ",

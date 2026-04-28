@@ -25,5 +25,20 @@ export class Header {
 
   switchLanguage(lang: 'fr' | 'en'): void {
     this.languageService.switchLanguage(lang);
+    this.dropdownOpen = false;
+  }
+
+  dropdownOpen = false;
+
+  toggleDropdown(): void {
+    this.dropdownOpen = !this.dropdownOpen;
+  }
+
+  @HostListener('document:click', ['$event'] )
+  onDocumentClock(event: MouseEvent): void {
+    const target = event.target as HTMLElement;
+    if (!target.closest('.dropdown')) {
+      this.dropdownOpen = false;
+    }
   }
 }
