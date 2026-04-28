@@ -5,7 +5,9 @@
     "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact",
-    "getResume": "Get my resume"
+    "getResume": "Get my resume",
+    "french": "French",
+    "english": "English"
   },
   "contact": {
     "title": " Contact me ",
