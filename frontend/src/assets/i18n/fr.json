@@ -49,7 +49,8 @@
     "ecochallenges": "Eco-challenges est une application web qui permet aux utilisateurs de créer des défis écologiques mais aussi d'inviter leurs amis à les relever.",
     "nintendream": "Nintendream est l'application web d'un parc d'attractions imaginaire sur le thème de la célèbre licence de jeux vidéo. On y retrouve un back-office permettant aux administrateurs de gérer les attractions, restaurants et hôtels du parc.",
     "portfolio": "Portfolio vitrine de mes compétences acquises.",
-    "travelApp": "Application web permettant de trouver des hôtels et restaurants dans plusieurs villes du monde. Création de notre API REST."
+    "travelApp": "Application web permettant de trouver des hôtels et restaurants dans plusieurs villes du monde. Création de notre API REST.",
+    "cssChainsawMassacre": "CSS Chainsaw Massacre est une application web développée dans le contexte d'un challenge Halloween inter-agence organisé par Ouidou. Il s'agit d'un test humoristique de personnalité, selon les réponses données l'utilisateur se voit attribuer un tueur en série comme résultat."
   },
   "skills": {
     "title": " Mes compétences ",
