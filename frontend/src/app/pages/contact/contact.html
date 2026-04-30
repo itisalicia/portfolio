@@ -1,4 +1,4 @@
-<section class="text-secondary-foreground mt-[7rem] text-center">
+<section class="text-secondary-foreground mt-[7rem] text-center pb-[3rem]">
     <h1 class="text-4xl font-bold">
         {{ 'contact.title' | translate }}
     </h1>
@@ -36,16 +36,16 @@
                 <app-button [text]="'contact.sendButton' | translate" type="submit"></app-button>
             </div>
         </div>
+    </form>
 
-        <div class="flex justify-center gap-8 mt-2 lg:absolute lg:flex-col lg:gap-0 lg:right-[10rem] lg:top-[4rem] lg:mt-0 md:mb[1rem]">
+        <div class="flex justify-center gap-8 mt-2 md: mb-2">
             <a href="https://github.com/itisalicia" target="_blank">
                 <img src="skills-img/github.svg" alt="github"
-                    class="w-[3rem] h-[3rem] mb-0 lg:mb-[6rem] cursor-pointer hover:scale-110 transition ease-in-out" />
+                    class="w-[3rem] h-[3rem] cursor-pointer hover:scale-110 transition ease-in-out" />
             </a>
             <a href="https://www.linkedin.com/in/alicia-magro1/" target="_blank">
                 <img src="introducing-me-img/linkedin.svg" alt="linkedin"
                     class="w-[3.2rem] h-[3.2rem] cursor-pointer hover:scale-110 transition ease-in-out" />
             </a>
         </div>
-    </form>
 </section>
