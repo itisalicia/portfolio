@@ -1,0 +1,39 @@
+<z-card class="w-[90%] mx-auto md:w-[85%] lg:w-[30rem] lg:mx-0 border-2 border-primary bg-background h-auto lg:h-[27rem]">
+    <section class="relative">
+        @if (title) {
+        <h2 class="justify-self-center text-[1.5rem]">{{title}}</h2>
+        }
+
+        @if (githubLink) {
+        <a href="{{githubLink}}" target="_blank" class="absolute top-[-2.5rem] right-[0rem]">
+            <img [src]="'/skills-img/github.svg'" alt="GitHub Link" class="w-[2.5rem] cursor-pointer" />
+        </a>
+        }
+
+        @if (projectTitle) {
+        <h3 class="justify-self-center text-[1.2rem] font-semibold">{{projectTitle}}</h3>
+        }
+    </section>
+
+    <section>
+        @if (projectImage) {
+        <img [src]="" alt="projectImage" class="w-[15rem] h-[10rem] justify-self-center rounded-lg" />
+        }
+
+        @if (description) {
+        <p class="text-center m-[1rem]">{{description}}</p>
+        }
+    </section>
+
+    <section class="grid grid-cols-4 gap-[1rem] m-[1rem] lg:gap-[2rem] lg:m-[2rem]">
+        @for (skill of skills; track $index) {
+        <div class="relative group flex flex-col items-center text-center">
+            <img [src]="skill.icon" [alt]="skill.alt" [class]="iconSize" />
+            <span class="absolute -top-7 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                {{ skill.alt }}
+            </span>
+        </div>
+        }
+
+    </section>
+</z-card>

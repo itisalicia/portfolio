@@ -1,0 +1,68 @@
+<section class="text-secondary-foreground mt-[10rem]">
+    <h1 class="text-center text-4xl font-bold mb-[5rem]">
+        {{ 'projects.title' | translate }}
+    </h1>
+    <div class="grid gap-8 mt-[5rem] grid-cols-1 lg:grid-cols-2 lg:justify-items-center">
+
+        <a href="https://github.com/WildCodeSchool/2025-03-wns-violet-ecochallenges" target="_blank">
+            <app-cards class="mt-[2rem] w-full lg:w-auto" title="Eco-challenges" [skills]="[
+        { icon: '/skills-img/ts.svg', alt: 'TypeScript' },
+        { icon: '/skills-img/react.svg', alt: 'React' },
+        { icon: '/skills-img/tailwind.svg', alt: 'Tailwind' },
+        { icon: 'skills-img/node.svg', alt: 'Node.js' },
+        { icon: '/skills-img/graphql.svg', alt: 'GraphQL' },
+        { icon: 'skills-img/typeorm.png', alt: 'TypeORM' },
+        { icon: 'skills-img/postgre.svg', alt: 'PostgreSQL' },
+        { icon: '/skills-img/docker.svg', alt: 'Docker' }
+    ]" projectImage="" [description]="'projects.ecochallenges' | translate"
+                githubLink="https://github.com/WildCodeSchool/2025-03-wns-violet-ecochallenges">
+            </app-cards>
+        </a>
+
+        <a href="https://the-css-chainsaw-massacre.vercel.app/" target="_blank">
+            <app-cards class="mt-[2rem] w-full lg:w-auto" title="CSS Chainsaw Massacre" [skills]="[
+                { icon: '/skills-img/ts.svg', alt: 'TypeScript' },
+                { icon: '/skills-img/react.svg', alt: 'React' },
+                { icon: '/skills-img/tailwind.svg', alt: 'Tailwind' },
+            ]" projectImage="" [description]="'projects.cssChainsawMassacre' | translate">
+            </app-cards>
+        </a>
+
+        <a href="https://github.com/WildCodeSchool-2024-09/JS-lille-p3-nintendream" target="_blank">
+            <app-cards class="mt-[2rem] w-full lg:w-auto" title="Nintendream" [skills]="[
+            { icon: '/skills-img/ts.svg', alt: 'TypeScript' },
+            { icon: '/skills-img/react.svg', alt: 'React' },
+            { icon: '/skills-img/css.svg', alt: 'CSS' },
+            { icon: 'skills-img/node.svg', alt: 'Node.js' },
+            { icon: '/skills-img/express.svg', alt: 'Express' },
+            { icon: 'skills-img/mysql.svg', alt: 'MySQL' }
+        ]" projectImage="" [description]="'projects.nintendream' | translate"
+                githubLink="https://github.com/WildCodeSchool-2024-09/JS-lille-p3-nintendream">
+            </app-cards>
+        </a>
+
+        <a href="https://github.com/itisalicia/portfolio" target="_blank">
+            <app-cards class="mt-[2rem] w-full lg:w-auto" title="Portfolio" [skills]="[
+            { icon: '/skills-img/ts.svg', alt: 'TypeScript' },
+            { icon: '/skills-img/angular.svg', alt: 'Angular' },
+            { icon: '/skills-img/tailwind.svg', alt: 'Tailwind' },
+            { icon: '/skills-img/node.svg', alt: 'Node.js' },
+            { icon: '/skills-img/express.svg', alt: 'Express' },
+        ]" projectImage="" [description]="'projects.portfolio' | translate"
+                githubLink="https://github.com/itisalicia/portfolio">
+            </app-cards>
+        </a>
+
+        <a href="https://github.com/WildCodeSchool-2024-09/LILLE-0924-PROJECT2-G2-WILD-AWAY" target="_blank">
+            <app-cards class="mt-[2rem] w-full lg:w-auto" title="WildAway" [skills]="[
+            { icon: '/skills-img/ts.svg', alt: 'TypeScript' },
+            { icon: '/skills-img/react.svg', alt: 'React' },
+            { icon: '/skills-img/css.svg', alt: 'CSS' }
+        ]" projectImage="" [description]="'projects.travelApp' | translate"
+                githubLink="https://github.com/WildCodeSchool-2024-09/LILLE-0924-PROJECT2-G2-WILD-AWAY">
+            </app-cards>
+        </a>
+
+    </div>
+    <p class="text-center mt-[2.5rem]" [innerHTML]="'projects.githubLink' | translate"></p>
+</section>

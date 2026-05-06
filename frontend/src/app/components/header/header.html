@@ -1,0 +1,27 @@
+<header class="sticky top-0 shadow-lg z-10" [ngClass]="{'bg-green-950': isScrolled, 'bg-transparent': !isScrolled}">
+    <div class="md:hidden flex justify-between items-center pr-3">
+        <app-mobile-button></app-mobile-button>
+        <app-switch-langage></app-switch-langage>
+    </div>
+    <nav class="text-secondary-foreground hidden md:flex justify-between items-center p-3 ">
+        <a [routerLink]="['/']" fragment="introducing"
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.aboutMe' | translate
+            }}</a>
+        <a [routerLink]="['/']" fragment="skills"
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.skills' | translate
+            }}</a>
+        <a [routerLink]="['/']" fragment="experience"
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.experience' | translate
+            }}</a>
+        <a [routerLink]="['/']" fragment="projects"
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.projects' | translate
+            }}</a>
+        <a [routerLink]="['/']" fragment="contact"
+            class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.contact' | translate
+            }}</a>
+        <a href="/CV_Alicia_Magro.pdf" download="CV_Alicia_Magro.pdf">
+            <app-button [text]="'header.getResume' | translate"></app-button>
+        </a>
+        <app-switch-langage></app-switch-langage>
+    </nav>
+</header>

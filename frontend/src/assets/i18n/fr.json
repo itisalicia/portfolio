@@ -1,0 +1,59 @@
+{
+  "header": {
+    "aboutMe": "A propos de moi",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact",
+    "getResume": "Obtenir mon CV",
+    "french": "Français",
+    "english": "Anglais"
+  },
+  "contact": {
+    "title": " Contactez-moi ",
+    "description": " Mon profil vous intéresse ? Envoyez-moi un message 😊 ",
+    "nameLabel": "Nom :",
+    "emailLabel": "Email : ",
+    "messageLabel": "Votre message :",
+    "namePlaceholder": "Votre nom...",
+    "emailPlaceholder": "Votre email...",
+    "messagePlaceholder": "Votre message...",
+    "sendButton": "Envoyer",
+    "emailValidationError": "L'email doit contenir un @",
+    "emailSentSuccess": "Email envoyé avec succès !",
+    "emailSentError": "Erreur lors de l'envoi de l'email."
+  },
+  "experience": {
+    "educationTitle": " Mes formations et diplômes ",
+    "experience1": "<strong>Mars 2025 - Mai 2026</strong><br /> Préparation à la certification Conceptrice Développeuse d'Application à Simplon - Wild Code School ",
+    "experience2": "<strong>Septembre 2024 - Février 2025</strong><br /> Obtention de la certification \"Développeuse Web et Web Mobile\" à la Wild Code School ",
+    "experience3": "<strong>Mars 2024 - Mai 2024</strong><br /> Formation Btech (HTML/CSS) avec l'Association Z ",
+    "experience4": "<strong>Septembre 2016 - Décembre 2019</strong><br /> Obtention du diplôme d'Etat d'Infirmière à l'IFSI de la Croix-Rouge Française de Tourcoing ",
+    "experience5": "<strong>Janvier 2014 - Décembre 2014</strong><br /> Obtention du diplôme d'Etat d'Aide Soignante à l'IFAS du CH de Roubaix ",
+    "professionalTitle": " Mes expériences professionnelles ",
+    "professional1": "<strong>Mars 2025 - Mai 2026</strong><br /> Développeuse Web full-stack en alternance chez Ouidou Nord ",
+    "professional2": "<strong>Juin 2023 - Septembre 2023</strong><br /> Infirmière à l'Etablissement Public de Santé Mentale d'Armentières ",
+    "professional3": "<strong>Février 2020 - Mai 2023</strong><br /> Infirmière à l'hôpital Saint Jean de Dieu à Lyon ",
+    "professional4": "<strong>2015</strong><br /> Aide-Soignante à l'Etablissement Public de Santé Mentale de Saint-André-lez-Lille ",
+    "professional5": "<strong>2015</strong><br /> Aide-Soignante à l'hôpital Saint Vincent de Paul à Lille "
+  },
+  "introducing": {
+    "name": "Alicia,",
+    "title": "Développeuse web full-stack ",
+    "description": "Après avoir été infirmière durant quelques années, j'ai décidé de me reconvertir dans le développement web. Je suis passionnée par la création d'expériences digitales à la fois fonctionnelles et agréables à utiliser. Curieuse et déterminée, j'aime relever des défis et apprendre en continu pour apporter des solutions concrètes et innovantes. Ma rigueur, mon esprit d'équipe et mon enthousiasme sont mes alliés pour contribuer efficacement à vos projets. Et si nous en parlions autour d'un futur projet commun ?",
+    "ctaButton": "Contactez-moi !"
+  },
+  "projects": {
+    "title": " Mes projets ",
+    "githubLink": "Et beaucoup d'autres disponible sur <a href=\"https://github.com/itisalicia\" target=\"_blank\" class=\"text-primary\">mon GitHub</a> !",
+    "ecochallenges": "Eco-challenges est une application web qui permet aux utilisateurs de créer des défis écologiques mais aussi d'inviter leurs amis à les relever.",
+    "nintendream": "Nintendream est l'application web d'un parc d'attractions imaginaire sur le thème de la célèbre licence de jeux vidéo. On y retrouve un back-office permettant aux administrateurs de gérer les attractions, restaurants et hôtels du parc.",
+    "portfolio": "Portfolio vitrine de mes compétences acquises.",
+    "travelApp": "Application web permettant de trouver des hôtels et restaurants dans plusieurs villes du monde. Création de notre API REST.",
+    "cssChainsawMassacre": "CSS Chainsaw Massacre est une application web développée dans le contexte d'un challenge Halloween inter-agence organisé par Ouidou. Il s'agit d'un test humoristique de personnalité, selon les réponses données l'utilisateur se voit attribuer un tueur en série comme résultat."
+  },
+  "skills": {
+    "title": " Mes compétences ",
+    "otherTools": "Mes autres outils"
+  }
+}

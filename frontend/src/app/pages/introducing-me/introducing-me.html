@@ -1,0 +1,29 @@
+<main class="text-secondary-foreground px-6 py-10 lg:px-10 lg:py-20">
+    <section class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mt-8 lg:mt-20 leading-8 max-w-6xl mx-auto">
+        <div class="flex-shrink-0 order-first lg:order-last">
+            <img src="introducing-me-img/alicia.jpg" alt="i18n"
+                class="rounded-full w-40 h-40 lg:w-[20rem] lg:h-[20rem] hover:opacity-50 transition-opacity duration-300 ease-in-out" />
+        </div>
+
+        <div class="flex-1 flex flex-col items-start">
+            <h1 class="text-4xl lg:text-5xl font-bold">{{ 'introducing.name' | translate }}</h1>
+            <h2 class="text-2xl lg:text-3xl mb-6">{{ 'introducing.title' | translate }}</h2>
+
+            <p class="mb-6 max-w-xl">{{ 'introducing.description' | translate }}</p>
+            <a [routerLink]="['/']" fragment="contact" class="self-center lg:self-start">
+                <app-button [text]="'introducing.ctaButton' | translate"></app-button>
+            </a>
+        </div>
+    </section>
+
+    <div class="flex justify-between md:justify-center md:gap-12 lg:gap-20 mt-12">
+        <a href="https://github.com/itisalicia" target="_blank">
+            <img src="introducing-me-img/github.svg" alt="github"
+                class="w-[3rem] h-[3rem] hover:scale-110 transition ease-in-out" />
+        </a>
+        <a href="https://www.linkedin.com/in/alicia-magro1/" target="_blank">
+            <img src="introducing-me-img/linkedin.svg" alt="linkedin"
+                class="w-[3.2rem] h-[3.2rem] hover:scale-110 transition ease-in-out" />
+        </a>
+    </div>
+</main>

@@ -1,0 +1,59 @@
+{
+  "header": {
+    "aboutMe": "About me",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "getResume": "Get my resume",
+    "french": "French",
+    "english": "English"
+  },
+  "contact": {
+    "title": " Contact me ",
+    "description": " Interested in my profile? Send me a message 😊 ",
+    "nameLabel": "Name:",
+    "emailLabel": "Email: ",
+    "messageLabel": "Your message:",
+    "namePlaceholder": "Your name...",
+    "emailPlaceholder": "Your email...",
+    "messagePlaceholder": "Your message...",
+    "sendButton": "Send",
+    "emailValidationError": "Email must contain an @",
+    "emailSentSuccess": "Email sent successfully!",
+    "emailSentError": "Error sending email."
+  },
+  "experience": {
+    "educationTitle": " My education and qualifications ",
+    "experience1": "<strong>March 2025 - May 2026</strong><br /> Preparing for Application Designer Developer certification at Simplon - Wild Code School ",
+    "experience2": "<strong>September 2024 - February 2025</strong><br /> Obtained \"Web and Mobile Web Developer\" certification from Wild Code School ",
+    "experience3": "<strong>March 2024 - May 2024</strong><br /> Btech training (HTML/CSS) with Association Z ",
+    "experience4": "<strong>September 2016 - December 2019</strong><br /> Obtained State Nursing Diploma from IFSI French Red Cross Tourcoing ",
+    "experience5": "<strong>January 2014 - December 2014</strong><br /> Obtained State Care Assistant Diploma at IFAS of Roubaix Hospital ",
+    "professionalTitle": " My professional experience ",
+    "professional1": "<strong>March 2025 - May 2026</strong><br /> Full-stack Web Developer in apprenticeship at Ouidou Nord ",
+    "professional2": "<strong>June 2023 - September 2023</strong><br /> Nurse at Public Mental Health Facility of Armentières ",
+    "professional3": "<strong>February 2020 - May 2023</strong><br /> Nurse at Saint Jean de Dieu Hospital in Lyon ",
+    "professional4": "<strong>2015</strong><br /> Care Assistant at Public Mental Health Facility of Saint-André-lez-Lille ",
+    "professional5": "<strong>2015</strong><br /> Care Assistant at Saint Vincent de Paul Hospital in Lille "
+  },
+  "introducing": {
+    "name": "Alicia,",
+    "title": "Full-stack web developer ",
+    "description": "After being a nurse for a few years, I decided to pivot to web development. I am passionate about creating digital experiences that are both functional and pleasant to use. Curious and determined, I like to take on challenges and learn continuously to provide concrete and innovative solutions. My rigor, team spirit and enthusiasm are my allies to contribute effectively to your projects. So, shall we talk about a future common project?",
+    "ctaButton": "Contact me!"
+  },
+  "projects": {
+    "title": " My projects ",
+    "githubLink": "And many more available on <a href=\"https://github.com/itisalicia\" target=\"_blank\" class=\"text-primary\">my GitHub</a> !",
+    "ecochallenges": "Eco-challenges is a web application that allows users to create ecological challenges and invite their friends to take them on.",
+    "nintendream": "Nintendream is the web application of an imaginary theme park based on the famous video game franchise. It features a back-office allowing administrators to manage the park's attractions, restaurants and hotels.",
+    "portfolio": "Portfolio showcasing my acquired skills.",
+    "travelApp": "Web application allowing you to find hotels and restaurants in multiple cities around the world. Creation of our REST API.",
+    "cssChainsawMassacre": "CSS Chainsaw Massacre is a web application developed in the context of an inter-agency Halloween challenge organized by Ouidou. It is a humorous personality test, according to the answers given by the user, they are assigned a serial killer as a result."
+  },
+  "skills": {
+    "title": " My skills ",
+    "otherTools": "Other tools"
+  }
+}
