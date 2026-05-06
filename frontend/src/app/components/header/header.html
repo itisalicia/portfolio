@@ -1,5 +1,8 @@
 <header class="sticky top-0 shadow-lg z-10" [ngClass]="{'bg-green-950': isScrolled, 'bg-transparent': !isScrolled}">
-    <app-mobile-button></app-mobile-button>
+    <div class="md:hidden flex justify-between items-center pr-3">
+        <app-mobile-button></app-mobile-button>
+        <app-switch-langage></app-switch-langage>
+    </div>
     <nav class="text-secondary-foreground hidden md:flex justify-between items-center p-3 ">
         <a [routerLink]="['/']" fragment="introducing"
             class="text-base cursor-pointer hover:scale-105 transition ease-in-out">{{ 'header.aboutMe' | translate
@@ -19,20 +22,6 @@
         <a href="/CV_Alicia_Magro.pdf" download="CV_Alicia_Magro.pdf">
             <app-button [text]="'header.getResume' | translate"></app-button>
         </a>
-        <div class="relative dropdown">
-            <button (click)="toggleDropdown()"
-                class="text-secondary-foreground border border-secondary-foreground rounded p-1">
-                fr / en
-            </button>
-            <div *ngIf="dropdownOpen" class="absolute right-0 mt-2 w-32 bg-secondary rounded shadow-lg">
-                <button (click)="switchLanguage('fr')" class="block w-full text-left px-4 py-2 hover:bg-primary">{{
-                    'header.french' |
-                    translate }}</button>
-                <button (click)="switchLanguage('en')" class="block w-full text-left px-4 py-2 hover:bg-primary">{{
-                    'header.english' |
-                    translate }}</button>
-
-            </div>
-        </div>
+        <app-switch-langage></app-switch-langage>
     </nav>
 </header>
