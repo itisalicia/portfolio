@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://ton-backend.vercel.app',
+  apiUrl: 'https://backend-portfolio-lemon-ten.vercel.app',
 };
